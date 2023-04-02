@@ -18,7 +18,7 @@ img {
 }
 
 body {
-  background-color: #e6cc4c;
+  background-color: white;
 }
 .container {
   max-width: 1068px;
@@ -72,9 +72,12 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+  cursor: pointer;
 }
 .product-box {
   position: relative;
+  background-color: grey;
+  padding: 5px;
 }
 
 .product-box:hover {
@@ -104,4 +107,8 @@ header {
   color: var(--bg-color);
   padding: 10px;
   cursor: pointer;
+}
+.add-cart:active {
+  background-color: white;
+  color: black;
 }
