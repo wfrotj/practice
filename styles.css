@@ -54,9 +54,15 @@ header {
   font-size: 1.8rem;
   cursor: pointer;
 }
+#cart-icon:active {
+  background-color: antiquewhite;
+}
 #user-icon {
   font-size: 1.8rem;
   cursor: pointer;
+}
+#user-icon:active {
+  background-color: antiquewhite;
 }
 .section-title {
   font-size: 3rem;
